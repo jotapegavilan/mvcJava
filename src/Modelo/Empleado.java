@@ -41,7 +41,7 @@ public class Empleado extends Persona{
         this.horas_semana = horas_semana;
     }
     public double calcular_sueldo(){
-        return sueldo_horas * horas_semana * 4;
+        return sueldo_horas * horas_semana * 4 *POR_DESC;
     }
    
 }
